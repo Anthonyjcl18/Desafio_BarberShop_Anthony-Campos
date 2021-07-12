@@ -1,0 +1,34 @@
+.boton-main {
+    padding: 40px 4%;
+    &__accion {
+        text-decoration: none;
+        border: none;
+        margin: 0 5px;
+        padding: 11px 20px;
+        font-family: $primary-font;
+        font-weight: $primary-font-regular;
+        font-size: $medium-font;
+        color: $white;
+        background-color: $nickel;
+        border-radius: 25px;
+        user-select: none;
+        -webkit-appearance: button;
+    }
+    &__accion:hover {
+        background-color: $light-gray;
+    }
+    &__accion:focus {
+        background-color: $nickel;
+        border: 2px solid $light-gray;
+    }
+}
+
+@media (max-width: 576px) {
+    .boton-main {
+        margin: 0!important;
+        padding: 0;
+    }
+    .boton-main__accion {
+        box-sizing: 0!important;
+    }
+}
