@@ -1,6 +1,6 @@
 .paginacion {
     background-color: $platinum;
-    padding: 55px 0;
+    padding: 40px 0;
     &__link {
         color: $raisin-black;
         text-decoration: none;
@@ -32,7 +32,7 @@
 
 @media (max-width: 576px) {
     .paginacion {
-        padding: 80px;
+        padding: 50px;
         &__link {
             margin: 0;
         }

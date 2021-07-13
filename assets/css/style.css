@@ -10003,11 +10003,11 @@ body {
   position: absolute;
   bottom: 0;
   right: 50%;
-  top: 90%;
+  top: 88%;
   color: #FFF;
 }
 .header__icono:first-child {
-  top: 88%;
+  top: 86%;
 }
 
 @media (max-width: 576px) {
@@ -10032,7 +10032,7 @@ body {
   }
 }
 .main {
-  padding: 40px 5%;
+  padding: 50px 8%;
 }
 .main__fecha {
   padding: 20px 0;
@@ -10056,8 +10056,9 @@ body {
 }
 
 @media (max-width: 576px) {
-  .main__fecha {
-    padding: 0 10px;
+  .main {
+    padding: 40px 8% .main __fecha;
+    padding-padding: 0 10px;
   }
   .main__parrafo {
     padding: 0 10px;
@@ -10071,8 +10072,8 @@ body {
   background-color: #121619;
 }
 .footer__imagen {
-  width: 90px;
-  height: 40px;
+  width: 120px;
+  height: 50px;
 }
 
 @media (max-width: 576px) {
@@ -10080,17 +10081,20 @@ body {
     padding: 100px 0;
   }
 }
+.data-section {
+  padding: 40px 4%;
+}
 .data-section__imagen {
   padding-left: 70px;
 }
 .data-section__foto {
-  height: 160px;
-  width: 160px;
+  height: 170px;
+  width: 170px;
   border-radius: 50%;
   margin: 0 auto;
 }
 .data-section__redes {
-  padding: 20px 0;
+  padding: 40px 4%;
 }
 .data-section__nombre {
   color: #121619;
@@ -10111,7 +10115,7 @@ body {
 .data-section__instagram:active {
   color: #D1D1D1;
 }
-.data-section__paginaWeb {
+.data-section__web {
   color: #ECBCBA;
   font-size: 18px;
   font-weight: 300;
@@ -10123,7 +10127,8 @@ body {
   color: #D1D1D1;
 }
 .data-section__articulo {
-  padding: 0;
+  padding: 40px;
+  padding-left: 1px;
 }
 .data-section__parrafo {
   color: #6C6E70;
@@ -10132,6 +10137,9 @@ body {
 }
 
 @media (max-width: 576px) {
+  .data-section {
+    height: 50vh;
+  }
   .data-section__imagen {
     padding-left: 25%;
   }
@@ -10161,7 +10169,8 @@ body {
   }
 }
 .boton-main {
-  padding: 40px 4%;
+  padding: 30px 7%;
+  padding-bottom: 60px;
 }
 .boton-main__accion {
   text-decoration: none;
@@ -10187,8 +10196,9 @@ body {
 
 @media (max-width: 576px) {
   .boton-main {
+    padding: 25px 7%;
     margin: 0 !important;
-    padding: 0;
+    font-size: 12px;
   }
 
   .boton-main__accion {
@@ -10197,7 +10207,7 @@ body {
 }
 .paginacion {
   background-color: #E6E7E7;
-  padding: 55px 0;
+  padding: 40px 0;
 }
 .paginacion__link {
   color: #222323;
@@ -10229,7 +10239,7 @@ body {
 
 @media (max-width: 576px) {
   .paginacion {
-    padding: 80px;
+    padding: 50px;
   }
   .paginacion__link {
     margin: 0;

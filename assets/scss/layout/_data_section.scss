@@ -1,15 +1,16 @@
 .data-section {
+    padding: 40px 4%;
     &__imagen {
         padding-left: 70px;
     }
     &__foto {
-        height: 160px;
-        width: 160px;
+        height: 170px;
+        width: 170px;
         border-radius: 50%;
         margin: 0 auto;
     }
     &__redes {
-        padding: 20px 0;
+        padding: 40px 4%;
     }
     &__nombre {
         color: $dark-scheme;
@@ -30,7 +31,7 @@
     &__instagram:active {
         color: $active-state;
     }
-    &__paginaWeb {
+    &__web {
         color: $primary-scheme;
         font-size: $large-font;
         font-weight: $primary-font-light;
@@ -42,7 +43,8 @@
         color: $active-state;
     }
     &__articulo {
-        padding: 0;
+        padding: 40px;
+        padding-left: 1px;
     }
     &__parrafo {
         color: $nickel;
@@ -53,6 +55,7 @@
 
 @media (max-width: 576px) {
     .data-section {
+        height: 50vh;
         &__imagen {
             padding-left: 25%;
         }

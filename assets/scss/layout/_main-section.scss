@@ -1,5 +1,5 @@
 .main {
-    padding: 40px 5%;
+    padding: 50px 8%;
     &__fecha {
         padding: 20px 0;
         font-family: $secondary-font;
@@ -24,6 +24,7 @@
 
 @media (max-width: 576px) {
     .main {
+        padding: 40px 8%
         &__fecha {
             padding: 0 10px;
         }

@@ -1,5 +1,6 @@
 .boton-main {
-    padding: 40px 4%;
+    padding: 30px 7%;
+    padding-bottom: 60px;
     &__accion {
         text-decoration: none;
         border: none;
@@ -25,8 +26,9 @@
 
 @media (max-width: 576px) {
     .boton-main {
+        padding: 25px 7%;
         margin: 0!important;
-        padding: 0;
+        font-size: $small-font;
     }
     .boton-main__accion {
         box-sizing: 0!important;
